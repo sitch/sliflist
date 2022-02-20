@@ -67,9 +67,16 @@ class Director
   name = "© 2021 Rob Slifka"
 TOML
 
+  def self.dim_wishlist_header()
+    title = "sliflist"
+    description = "Community Curated God Rolls"
+    "title:${title}\ndescription:${description}\n"
+  end
+
   def self.write_dim_wishlist(filename)
+    header = dim_wishlist_header()
     wishlist = Banshee44.roll_store.map{|r| AsherMir.new(r).generate_wishlist }.join("\n")
-    File.write(filename, wishlist)
+    File.write(filename, header + wishlist)
   end
 
   def self.write_hugo_site
