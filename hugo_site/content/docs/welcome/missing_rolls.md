@@ -10,6 +10,8 @@ toc: true
 
 If you're interested in contributing, this is a great place to get started! It's a list of currently available weapons that are not presently in the Sliflist.
 
+Submit a new roll by opening a GitHub pull request [here](https://github.com/rslifka/sliflist/issues/new?assignees=rslifka&labels=roll+idea&template=new-roll.md&title=%5BNEW+ROLL%5D+for+weapon).
+
 *This list is still a work in progress. There's a lot of weapons in Destiny!*
 
 |Weapon|Drops From|
